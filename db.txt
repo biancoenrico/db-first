@@ -1,0 +1,14 @@
+Componenti Elettronici
+
+ID,                         INT,                 not null,
+Nome_componente,            VARCHAR(20),         not null,
+Prezzo,                     FLOAT(7,2),          not null,
+Casa_produttrice,           VARCHAR(25),         not null,
+Tipologia_prodotto,         VARCHAR(20),         not null,
+
+Spazio_di_archiviazione     MEDIUMINT,
+Codice_serie,               VARCHAR(30),
+Foto_prodotto,              VARCHAR(200),
+Colore_prodotto,            VARCHAR(20),
+
+
